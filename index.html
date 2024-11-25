@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        padding: 0%;
+        margin: 0%;
+        box-sizing: border-box;
+
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        padding-top: 50px;
+        text-align: center;
+        gap: 40px;
+
+    }
+
+    .box {
+        padding: 20px;
+        border: 1px solid black;
+        height: 450px;
+        padding: 20px;
+        box-shadow:  4px  4px;
+    }
+
+    h1 {
+        padding-top: 20px;
+        text-align: center;
+    }
+    .para{
+        text-align: center;
+        padding-top: 20px;
+    }
+    h2{
+        padding-top: 10px;
+    }
+    p{
+        padding-top: 10px;
+    }
+    h3{
+        padding-top: 15px;
+       
+    }
+   .img{
+    border-radius: 50%;
+   }
+
+    @media(max-width:840px){
+        .container{
+            flex-wrap: wrap;
+            height:auto ;
+            width: 100%;
+        }
+    }
+</style>
+
+<body>
+    <h1>Testmonials</h1>
+    <p class="para">We place huge value on strong relationships and have seen the benefit they <br> bring to our business. Customer
+        feedback is vital in helping us to get it right.
+    </p>
+    <div class="container">
+
+        <div class="box box1">
+            <img class="img" src="im 1.jpg" alt="" height="200px" width="200px">
+            <p> Vitae suscipit tellus mauris a diam <br> maecenas sed enim ut. Mauris augue <br> neque gravida in
+                fermentum.
+                Praesent <br> semper feugiat nibh sed pulvinar <br> proin.</p>
+            <h2>Nat Reynolds</h2>
+            <h3>Chief Accountant</h3>
+        </div>
+        <div class="box box2">
+            <img class="img" src="im2.jpg" alt="" height="200px" width="200px">
+            <p>Pharetra vel turpis nunc eget lorem. <br> Quisque id diam vel quam elementum <br> pulvinar etiam. Urna
+                porttitor
+                rhoncus <br> dolor purus non enim praesent <br> elementum. </p>
+            <h2>secretory</h2>
+            <h3>Chief Accountant</h3>
+        </div>
+        <box class="box box3">
+            <img class="img"  src="im2.jpg" alt="" height="200px" width="200px">
+            <p>Mauris augue neque gravida in <br> fermentum. Praesent semper feugiat <br> nibh sed pulvinar proin. Nibh
+                nisl <br>
+                dictumst vestibulum rhoncus est <br> pellentesque elit. </p>
+            <h2>Bob Roberts</h2>
+            <h3>sales manager</h3>
+        </box>
+    </div>
+</body>
+
+</html>
